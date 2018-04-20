@@ -49,6 +49,12 @@ body {background-color:seagreen;
     display: table;
     clear: both;
 }	
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}	
 	
 h1 {
 	font-size:60px;
@@ -77,19 +83,27 @@ ul {font-family:bookman;}
 
 <div class="row">
 	<div class="leftcolumn">
-		<h2>Introduction</h2>
-		<img src="blackjacks.png">
-		<p>insert intro</p>
+		<div class="card">
+			<h2>Introduction</h2>
+			<img src="blackjacks.png">
+		</div>
+		<div class="card">
+			<p>insert intro</p>
+		</div>
 	</div>
 	<div class="rightcolumn">
-		<h3>Its a small column</h3>
-		<button>Click</button>
-		<ul>
-			<li>Introduction</li>
-			<li>The Game of Blackjack</li>
-			<li>Card Counting Methods</li>
-			<li>My Program</li>
-		</ul>
+		<div class="card">
+			<h3>Its a small column</h3>
+			<button>Click</button>
+		</div>
+		<div class="card">
+			<ul>
+				<li>Introduction</li>
+				<li>The Game of Blackjack</li>
+				<li>Card Counting Methods</li>
+				<li>My Program</li>
+			</ul>
+		</div>
 	</div>
 </div>
 	
