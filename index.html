@@ -31,6 +31,24 @@ body {background-color:seagreen;
     background-color: #ddd;
     color: black;
 }
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}	
 	
 h1 {
 	font-size:60px;
@@ -48,6 +66,7 @@ ul {font-family:bookman;}
 <body>
 <div class="header">
 	<h1>Card Counting in Blackjack</h1>
+	<p>By Halle Gordon-Jeary</p>
 </div>
 
 <div class="topnav">
@@ -55,15 +74,24 @@ ul {font-family:bookman;}
   <a href="#">Link</a>
   <a href="#">Link</a>
 </div>
+
+<div class="row">
+	<div class="leftcolumn">
+		<h2>Introduction</h2>
+		<img src="blackjacks.png">
+		<p>insert intro</p>
+	</div>
+	<div class="rightcolumn">
+		<h3>Its a small column</h3>
+		<button>Click</button>
+		<ul>
+			<li>Introduction</li>
+			<li>The Game of Blackjack</li>
+			<li>Card Counting Methods</li>
+			<li>My Program</li>
+		</ul>
+	</div>
+</div>
 	
-<p>By Halle Gordon-Jeary</p>
-<button>Click</button>
-<ul>
-	<li>Introduction</li>
-	<li>The Game of Blackjack</li>
-	<li>Card Counting Methods</li>
-	<li>My Program</li>
-</ul>
-<img src="blackjacks.png">
 </body>
 </html>
