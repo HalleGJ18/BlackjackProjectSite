@@ -37,13 +37,13 @@ body {background-color:seagreen;
 }
 .rightcolumn {
     float: right;
-    width: 25%;
+    width: 33.33%;
     background-color: seagreen;
     padding-left: 20px;
 }
 .leftcolumn {   
     float: left;
-    width: 75%;
+    width: 66.67%;
 }
 .row:after {
     content: "";
@@ -60,6 +60,13 @@ body {background-color:seagreen;
     text-align: center;
     background: firebrick;
     margin-top: 20px;
+}	
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }	
 	
 h1 {
