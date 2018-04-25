@@ -1,1 +1,147 @@
 <!DOCTYPE html>
+<html>
+	
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+	
+body {background-color:seagreen;
+	margin: auto;
+	padding: 10px;
+    	background: seagreen;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}	
+	
+.header {
+    background-color: firebrick;
+    padding: 20px;
+    text-align: center;
+}
+	
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.rightcolumn {
+    float: right;
+    width: 33.33%;
+    background-color: seagreen;
+    padding-left: 20px;
+}
+.leftcolumn {   
+    float: left;
+    width: 66.67%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}	
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+	box-shadow:2px 5px green
+}	
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: firebrick;
+    margin-top: 20px;
+}	
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .rightcolumn,.leftcolumn {
+        width: 100%;
+    }
+}	
+	
+h1 {
+	font-size:60px;
+	text-align:centre;
+	font-family:bookman;
+	margin: auto;
+}
+	
+p {
+	font-family:bookman;
+	font-size:large
+}
+ul {font-family:bookman;}
+</style>
+<title>Blackjack Card Counting</title>
+</head>
+	
+<body>
+<div class="header">
+	<h1>Card Counting in Blackjack</h1>
+</div>
+
+<div class="topnav">
+	<a href="https://HalleGJ18.github.io">Home</a>
+	<a href="https://HalleGJ18.github.io/game.html">The Game</a>
+	<a href="#">Card Counting</a>
+	<a href="https://HalleGJ18.github.io/program.html">My Program</a>
+</div>
+
+<div class="row">
+	<div class="leftcolumn">
+		<div class="card">
+			<h2>My Program</h2>
+		</div>
+		
+		<div class="card">
+      			<p>a card</p>
+		</div>
+		<div class="card">
+			<h3>a card</h3>
+			<p>a card</p>
+		</div>
+				
+		<div class="card">
+			<h3>a card</h3>
+			<p>a card</p>
+		</div>
+	</div>
+	<div class="rightcolumn">
+		<div class="card">
+			<h3>Its a small column</h3>
+			<button>Click</button>
+		</div>
+		<div class="card">
+			<ul>
+				<li>Introduction</li>
+				<li>The Game of Blackjack</li>
+				<li>Card Counting Methods</li>
+				<li>My Program</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+  	<p>By Halle Gordon-Jeary, Commonweal School</p>
+</div>	
+	
+</body>
+</html>
