@@ -78,6 +78,20 @@ img {
     margin-top: 20px;
 }	
 
+.button {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: bookman;
+}	
+		
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .rightcolumn,.leftcolumn {
@@ -139,8 +153,7 @@ ul {font-family:bookman;}
 	</div>
 	<div class="rightcolumn">
 		<div class="card">
-			<h3>Its a small column</h3>
-			<button>Click</button>
+			<button class="button" onclick="alert('Hello! I hope you like card games...')">'_'</button>
 		</div>
 		<div class="card">
 			<ul>
