@@ -5,4 +5,4 @@ Website written for Villiers Park Residential about progress on Computer Science
 Published using GitHub Pages
 https://hallegj18.github.io/BlackjackProjectSite/
 
-This project was my first ever attempt at creating a webpage.
+This project was my first ever attempt at creating a webpage when I was 16.
